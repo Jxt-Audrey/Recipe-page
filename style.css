@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ 
+body{
+    font-family: "poppins"url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: hsl(30, 54%, 90%);
+}
+
+img{
+    width: 450px;
+    margin-top: 25PX;
+    border-radius: 15px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 500px;
+    margin:0 auto;
+    padding:0 30px;
+    justify-content: center;
+    height: 100%;
+    padding-right: 16px;
+    background-color: #ffff;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.Ntable{
+    border-collapse: collapse;
+    width: 50%;
+}
+.Ntable td{
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+td:nth-child(2){
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.header{
+    background-color: bisque;
+    color: aliceblue;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background-color: hsl(330, 100%, 98%)    ;
+    border-radius: 5px;
+    margin: 16px;
+    height: 120px;
+    justify-content: right;
+}
+.box h2{
+    color: hsl(14, 45%, 36%);
+}
+.container h3 {
+    color: hsl(332, 51%, 32%);
+    font-style: oblique;
+}
+.container h2{
+    color: hsl(14, 45%, 36%);
+    font-style: inherit;
+}
